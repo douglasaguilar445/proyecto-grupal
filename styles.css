@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf5;
+  color: #333;
+  padding: 20px;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #b85c38;
+}
+
+/* Catálogo con grid */
+#catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tarjetas de producto */
+.producto-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.producto-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Títulos de productos */
+.producto-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #6b2f24;
+}
+
+/* Info adicional */
+.producto-card p {
+  margin: 5px 0;
+}
+
+/* Botón de agregar */
+.agregar-btn {
+  margin-top: 10px;
+  background-color: #e07a5f;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.agregar-btn:hover {
+  background-color: #d1493e;
+}
