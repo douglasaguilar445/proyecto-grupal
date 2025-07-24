@@ -1,4 +1,3 @@
-// products.js
 export const products = [
   { id: 1, nombre: "Waffle with Berries", categoria: "Waffle", precio: 6.50 },
   { id: 2, nombre: "Vanilla Bean Crème Brûlée", categoria: "Crème Brûlée", precio: 7.00 },

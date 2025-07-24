@@ -1,4 +1,3 @@
-// main.js
 import { products } from './products.js';
 
 const catalogo = document.getElementById('catalogo');
